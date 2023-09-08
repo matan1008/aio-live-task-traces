@@ -11,7 +11,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: pip install pytest pytest-cov
+        run: pip install pytest pytest-cov pytest-asyncio
       - name: Run tests and collect coverage
         run: python -m pytest --cov
       - name: Upload coverage reports to Codecov
