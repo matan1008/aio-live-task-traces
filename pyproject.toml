@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aio_live_task_traces"
-version = "0.0.1"
+version = "0.0.2"
 description = "Trace python asyncio tasks exceptions live"
 readme.file = "README.md"
 readme.content-type = "text/markdown"
